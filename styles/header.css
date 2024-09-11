@@ -1,0 +1,62 @@
+.container {
+background-image: url(../image/Background_Intro.png);
+height: 750px;
+width: 100vw;
+background-position: center;
+background-size: cover;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  p {
+    margin-bottom: 8px;
+    span {
+      color: var(--primary-red);
+    }
+  }
+}
+h1 {
+  font: var(--title-lg);
+  color: var(--gray-600);
+  margin-bottom: 20px;
+}
+.profile {
+  height: 96px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  border-radius: 50px;
+  border: 2px solid var(--primary-red);
+  padding: 4.36px;
+  margin-bottom: 56px;
+
+}
+.code {
+position: relative;
+bottom: 55px;
+right: 40px;
+height: 32px;
+}
+.progamas {
+  display: grid;
+  grid-template-columns: 114px 105px 92px 138px 106px 119px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin-top: 80px;
+}
+.conteudo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding-inline: 16px;
+  height: 40px;
+  background: var(--gray-300);
+  color: var(--gray-600);
+  border-radius: 50px;
+}
+.seta {
+  margin-top: 94px;
+}

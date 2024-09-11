@@ -6,18 +6,18 @@
 
 :root {
   /*cores primarias*/
-  --primary-red: var(#E3646E);
-  --primary-purple: var(#BB72E9);
-  --primary-blue: var(#3996DB);
-  --primary-green: var(#82BC4F);
-  --primary-yellow: var(#EABD5F);
+  --primary-red: #E3646E;
+  --primary-purple: #BB72E9;
+  --primary-blue: #3996DB;
+  --primary-green: #82BC4F;
+  --primary-yellow:#EABD5F;
   /*cores base*/
-  --gray-100: var(#0D0E11);
-  --gray-200: var(#16181D);
-  --gray-300: var(#292C34);
-  --gray-400: var(#878EA1);
-  --gray-500: var(#C0C4CE);
-  --gray-600: var(#E2E4E9);
+  --gray-100: #0D0E11;
+  --gray-200: #16181D;
+  --gray-300: #292C34;
+  --gray-400: #878EA1;
+  --gray-500: #C0C4CE;
+  --gray-600: #E2E4E9;
   /*fontes*/
   --font-family-asap: 'Asap', sans-serif;
   --title-lg: 900 56px/120%  var(--font-family-asap);
