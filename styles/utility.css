@@ -44,3 +44,17 @@ width: 25px;
 .cor-red {
   color: var(--primary-red);
 }
+.cor-purple {
+  color: var(--primary-purple);
+}
+.cor-br {
+  color: var(--gray-500);
+}
+.pad-block {
+padding-block: 8px;
+}
+.display-collum {
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
