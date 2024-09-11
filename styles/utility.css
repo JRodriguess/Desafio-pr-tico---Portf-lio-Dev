@@ -3,12 +3,21 @@
   justify-content: center;
   align-items: center;
 }
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-self: center;
+  align-items: center;
+}
 .gap-8 {
   gap: 8px;
   padding: 16px 9px;
 }
 .gap-16 {
   gap: 16px;
+}
+.gap-24 {
+  gap: 24px;
 }
 .text-sm {
   color: var(--gray-400);
@@ -17,10 +26,21 @@
 .text-md {
   font: var(--text-md);
 }
+.title-sm {
+  font: var(--title-sm);
+  color: var(--gray-500);
+}
 .subtitle {
   font: var(--subtitle);
   color: var(--gray-500);
 }
 .git img {
 width: 25px;
+}
+.title-md {
+  font: var(--title-md);
+  color: var(--gray-500);
+}
+.cor-red {
+  color: var(--primary-red);
 }

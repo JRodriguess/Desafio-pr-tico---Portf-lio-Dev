@@ -1,0 +1,29 @@
+.projects {
+  background: var(--gray-200);
+  height: 917px;
+  padding: 72px 120px 120px 144px;
+  display: grid;
+}
+.grids {
+  background: var(--gray-300);
+  width: 330px;
+  height: 280px;
+  padding: 12px 12px 69px 12px;
+  border-radius: 12px;
+img {
+  width: 306px;
+  height: 156px;
+  border-radius: 8px;
+}
+h2 {
+  margin-top: 24px;
+}
+p {
+  margin-top: 8px;
+}
+}
+.section-pj {
+  h2 {
+    margin-bottom: 56px;
+  }
+}
