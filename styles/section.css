@@ -55,9 +55,28 @@ p {
   background-size: cover;
   padding: 128px 120px 200px 120px;
 }
-.cont {
-  height: 68px;
-  width: 400px;
+.contatos {
   background-color: var(--gray-300);
+  width: 400px;
+  height: 68px;
   border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 24px;
+}
+.contatos div {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.arrow {
+  background-image: url(../icon/ArrowUpRightbrc.svg);
+  width: 32px;
+}
+.arrow:hover {
+  background-image: url(../icon/ArrowUpRight.svg);
+  background-repeat: no-repeat;
+  width: 32px;
+  height: 32px;
 }
