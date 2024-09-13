@@ -72,11 +72,15 @@ p {
 }
 .arrow {
   background-image: url(../icon/ArrowUpRightbrc.svg);
-  width: 32px;
+  height: 32px;
+  width: 32px; 
 }
 .arrow:hover {
   background-image: url(../icon/ArrowUpRight.svg);
   background-repeat: no-repeat;
-  width: 32px;
-  height: 32px;
+  margin-top: 20px;
+  position: relative;
+  left: 10px;
+  transform: scale(1.7, 1.7);
+
 }
